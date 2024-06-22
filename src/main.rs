@@ -21,7 +21,7 @@ fn main() -> Result<(), slint::PlatformError> {
             let profit: f64 = num * PROFIT;
             let opex: f64 = num * OPEX;
 
-            let result: String = format!("Taxes:{:2}\nOwner: {:2}\nProfit: {:2}\nOpex: {:2}", tax, owner, profit, opex);
+            let result: String = format!("Taxes:{:.2}\nOwner: {:.2}\nProfit: {:.2}\nOpex: {:.2}", tax, owner, profit, opex);
 
 
             ui.set_results( result.into());

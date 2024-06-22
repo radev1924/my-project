@@ -24,7 +24,7 @@ export component AppWindow inherits Window {
             income := LineEdit {
                 placeholder-text: "Enter Total Income";
                 horizontal-alignment: center;
-                font-size: 24px; 
+                font-size: 30px; 
                 height: 25px;
             }
         }
@@ -40,12 +40,12 @@ export component AppWindow inherits Window {
         Row{
             VerticalBox {
                 Rectangle {
-                    height: 25px;   
-                    background: white;
+                    height: 140px;   
+                    background: gray;
                     Text {
                         color: black;
-                        font-size: 20px ;
-                        font-weight: 600 ;
+                        font-size: 15px ;
+                        font-weight: 300 ;
                         text: root.results;
 
                     }
